@@ -14,7 +14,7 @@ public class LightBoard
     lights = new boolean[numRows][numCols];
     for(int r = 0; r < lights.length; r++) {
       // increment with r and c!! Be consistent with your vars, don't use "i". Resist your muscle memory !
-      for(int c = 0; c < lights[r].length; r++) {
+      for(int c = 0; c < lights[r].length; c++) {
         if((int)(Math.random()*10) <=3) {
           lights[r][c] = true;
         } else {
